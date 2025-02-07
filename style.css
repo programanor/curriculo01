@@ -1,0 +1,89 @@
+
+/* style geral */
+*{
+   font-family: "Inter", serif;
+    margin: 0px;
+   
+}
+/* style cabeçalho */
+#head{
+    background-color:rgb(159, 101, 144);
+    text-align:center;
+    width:90%;
+    margin-top:70px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-bottom: 50px;
+}
+#titleI{
+    background-color: aqua;
+    width:50%;
+    margin:auto;
+
+/* style conteudo geral */
+}
+#conteudoGeral{
+    display: grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+#conteudoGeral{
+    text-align:center;
+
+    
+
+    /* OUTRA FORMA DE FAZER COM GRID E FLEX:
+
+       
+    
+    
+       #conteudoGeral{
+       display:grid;  <= defini que vai ser utiizado o padrão grid.
+       grid-template-columns: 30% auto; <= aqui colocamos em coluna com uma % de x a direita
+                                            ou auto a esquerda. Como tambem com uma % de x a direita 
+                                           e uma %  de x a esquerda. E até mesmo no meio.Ou mais.
+                                           exemplo: 30% 40% 30%
+       grid-column-gap:20px;  <= aqui vamos criar um espaçamento de forma vertical, entre os conteúdos da
+                                  div conteudoGeral.            
+                                            
+        }
+
+        .container{
+        display:flex; <= defini que vai ser utiizado o padrão flex.
+        flex-direction: column;<= aqui difinimos que os conteudos teram um direcinamento
+                                  em coluna (direção vertical).
+        row-gap: 20px; <= aqui estamamos informando que entre cada conteúdo da tag container
+                          terá uma distância de x px, entre as linhas.Isso faz com que exista
+                          um distânciamento determinado,entre os conteúdo dentro de uma div.
+        } 
+        
+    
+    
+    
+    */
+}
+
+ 
+
+/* style para todos informação  */
+
+.informacao{
+    border:1px solid #eaeaeaea;
+    border-radius: 12px;
+    margin-top:12px;
+    margin-left:10px;
+    
+}
+
+h3{
+    text-transform:uppercase;
+}
+
+/* informacaoI */
+
+.icones{
+    width:21px;
+    height:21px;
+    
+}
+

@@ -1,0 +1,153 @@
+/*  cabeçalho */
+
+@media(min-width:500px) and (max-width:700px){
+
+    #head{
+        margin-top:10px;
+        margin-bottom:10px;
+     }
+    #titleI{
+      font-size:10px;
+    }
+
+    #titleI h2{
+        font-size:8px;
+    }
+
+    .informacao{
+        margin-left:2px;
+        margin-right:2px
+    }
+
+    .informacao{
+        font-size:14px;
+    }
+
+}
+@media(min-width:300px) and (max-width:500px){
+
+    #head{
+        margin-top:10px;
+        margin-bottom:10px;
+     }
+
+    #titleI{
+        font-size:6px;
+        color:rgb(184, 36, 36);
+    }
+    .informacao{
+        margin-left:2px;
+        margin-right:2px;
+        background-color:rgb(179, 155, 201);
+        font-style: italic;
+        font-size:10px;
+    }
+
+    .icones{
+        width:11px;
+        height:11px;
+    }
+    
+}
+@media(min-width:100px) and (max-width:300px){
+
+    #head{
+        margin-top:10px;
+        margin-bottom:10px;
+     } 
+
+    #titleI{
+        font-size:5px;
+        color:rgb(201, 131, 131);
+    }
+
+    #titleI h1{
+        font-size:15px;
+    }
+    #titleI h2{
+        font-size: 10px;
+        color:rgb(118, 85, 85);
+    }
+
+    .icones{
+        width:10px;
+        height:10px;
+    }
+
+    .informacao{
+        margin-left:2px;
+        margin-right:2px
+    }
+
+    h2{
+        font-size:5px;
+    }
+}
+
+/* conteudo geral */
+
+@media(min-width:90px) and (max-width:300px){
+
+    #head{
+        margin-top:10px;
+        margin-bottom:10px;
+        border-radius: 12px;
+     }
+
+    #conteudoGeral{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .informacao{
+        font-size:13px;
+        margin-left:2px;
+        margin-right:2px
+        
+    }
+  
+
+}
+@media(min-width:80px) and (max-width:240px){
+
+    #head{
+        margin-top:10px;
+        margin-bottom:10px;
+        border-radius:10px;
+     } 
+
+     #titleI{
+        border-radius:10px;
+     }
+
+    #conteudoGeral{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .informacao{
+       
+        font-size:11px;
+        background-color:rgb(174, 192, 228);
+        margin-left:2px;
+        margin-right:2px
+        
+    }
+
+    
+    .icones{
+        width:15px;
+        height:15px;
+    } 
+
+    #titleI h2{
+        font-size: 8px;
+        color:rgb(118, 85, 85);
+    }
+
+    .icones{
+        width:10px;
+        height:10px;
+    }
+
+}

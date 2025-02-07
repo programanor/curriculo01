@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xzzdgpjd" method="post">
+        <!-- <p>
+            <label for="">DIGITE SEU NOME</label><br>
+            <input class="form" type="text" nome="name" placeholder=" NOME" required value="">
+        </p> -->
+
+        <p>
+            <label for="">DIGITE SEU E-MAIL</label><br>
+            <input class="form" type="email" nome="email" placeholder=" E-MAIL" required value=""> 
+        </p>
+
+        <p>
+            <label for="">DIGITE SUA MENSSAGEM</label><br>
+            <textarea rows="10" cols="20" name="menssagem" id="menssagem" placeholder="Digite sua menssagem..."></textarea>
+        </p>
+
+        <p>
+            <label for="">Qual esporte você pratica</label>
+        <ul>
+            <li><input value="FUTEBOL" nome="esporteFavorito1" type="radio">futebol</li>
+            <li><input value="CICLISMO" nome="esporteFavorito" type="radio">ciclismo</li>
+            <li><input value="NATACAO" nome="esporteFavorito" type="radio">natação</li>
+        </ul>
+
+        </p>
+
+        <p>
+            <label for="">Qual sua cidde preferida:</label> <br>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">rio de janeiro</option>
+                <option value="">curitiba</option>
+                <option value="">belo horizonte</option>
+                <option value="">mato grosso</option>
+                <option value="">são lorenço</option>
+                <option value="">manaus</option>
+                <option value="">amzonas</option>
+
+            </select>
+        </p>
+
+        
+        <p>
+            <input value="SIM" nome="TermosDoContrato" type="checkbox" required> Aceite os termos
+        </p>
+        
+        <button  id="botao" type="submit">ENVIAR</button>
+    </form>
+    
+    
+</body>
+</html>
